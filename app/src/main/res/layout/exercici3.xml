@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Es hora de ser feliç"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/n12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="30"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="60"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="150"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="210"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="240"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="300"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/n11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="330"
+        app:layout_constraintCircleRadius="120dp" />
+
+    <TextView
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ivan"
+        android:textColor="@color/colorGreen"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.732" />
+
+    <TextView
+        android:id="@+id/col1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:padding="12dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="0"
+        app:layout_constraintCircleRadius="70dp"/>
+
+    <TextView
+        android:id="@+id/col2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:paddingRight="20dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="30"
+        app:layout_constraintCircleRadius="85dp"/>
+
+    <TextView
+        android:id="@+id/col3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:paddingRight="20dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="60"
+        app:layout_constraintCircleRadius="90dp"/>
+
+    <TextView
+        android:id="@+id/col4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:paddingRight="25dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="90"
+        app:layout_constraintCircleRadius="90dp"/>
+
+    <TextView
+        android:id="@+id/col5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:paddingRight="20dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="120"
+        app:layout_constraintCircleRadius="95dp"/>
+
+    <TextView
+        android:id="@+id/col6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:paddingRight="20dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="150"
+        app:layout_constraintCircleRadius="85dp"/>
+
+    <TextView
+        android:id="@+id/col7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:padding="12dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="180"
+        app:layout_constraintCircleRadius="85dp"/>
+
+    <TextView
+        android:id="@+id/col8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:paddingRight="20dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="210"
+        app:layout_constraintCircleRadius="90dp"/>
+
+    <TextView
+        android:id="@+id/col9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:paddingRight="20dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="240"
+        app:layout_constraintCircleRadius="90dp"/>
+
+    <TextView
+        android:id="@+id/col10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorRed"
+        android:paddingRight="25dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="270"
+        app:layout_constraintCircleRadius="90dp"/>
+
+    <TextView
+        android:id="@+id/col11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:paddingRight="20dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="300"
+        app:layout_constraintCircleRadius="90dp"/>
+
+    <TextView
+        android:id="@+id/col12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:paddingRight="20dp"
+        app:layout_constraintCircle="@id/center"
+        app:layout_constraintCircleAngle="330"
+        app:layout_constraintCircleRadius="85dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

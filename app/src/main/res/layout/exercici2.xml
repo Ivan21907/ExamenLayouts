@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:background="@color/colorAqua"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="News"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/colorSilver"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorGray"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="HEADER"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSilver">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@color/colorGray"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="bla"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@color/colorGray"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="Bla"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:paddingBottom="415dp"
+            android:paddingRight="50dp"
+            android:background="@color/colorGray"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="bla"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorSilver">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:gravity="center"
+            android:background="@color/colorGray"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="Footer 1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:padding="20dp"
+            android:gravity="center"
+            android:background="@color/colorGray"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="Footer 2"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/colorAqua"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:text="Ivan"/>
+    </TableRow>
+</TableLayout>
